@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Send to udown</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="icons/icon-48.png" alt="">
+        <div>
+          <h1>udown</h1>
+          <p>Send this page to your downloader</p>
+        </div>
+      </header>
+      <div class="page" id="page" aria-live="polite">Checking current tab...</div>
+      <button class="primary" id="send" type="button">Open in desktop app</button>
+      <button class="secondary" id="copy" type="button">Copy page URL</button>
+      <p class="status" id="status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
